@@ -79,4 +79,15 @@ def about(request):
     return render(request, 'blog/about.html', {'title' : 'About'})
 
 
+def announcements(request):
+    return render(request, 'blog/announcements.html', {'title' : 'Announcements'})
+
+def creator_info(request):
+    return render(request, 'blog/creator_info.html', {'title' : 'Creator_info'})
+
+def contact_us(request):
+    return render(request, 'blog/contact_us.html', {'title' : 'Contact_us'})
+
+
+
 
